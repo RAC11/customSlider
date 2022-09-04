@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=5.0" />
+    <title>Rylan Reese</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png" />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="headshot">
+        <img src="/assets/RylanHeadshot.png" width="400" height="400" />
+      </div>
+      <div class="bio">
+        <div class="bio-info">
+          <h1 id="user-name">Rylan Reese</h1>
+          <div>
+            <p id="user-bio">
+              Wright State University graduate with an ABET-accredited degree in
+              Mechanical Engineering. Excited and looking forward to utilizing
+              my current knowledge and to develop new business and engineering
+              skills.
+            </p>
+          </div>
+        </div>
+
+        <!-- Icon Buttons -->
+        <div class="social-links">
+          <!-- Email Button -->
+          <a href="mailto:rylanreese@gmail.com" target="_blank">
+            <button class="icon-button">
+              <img
+                src="/assets/Gmail.png"
+                alt="Gmail Icon"
+                height="24"
+                width="24"
+              />
+              <h4>Contact Me</h4>
+            </button>
+          </a>
+
+          <!-- Download Resume Button -->
+          <a href="./assets/RylanReese_Resume2022.pdf" target="_blank">
+            <button class="icon-button">
+              <img
+                src="/assets/DownloadFilled.png"
+                alt="Download Icon"
+                height="24"
+                width="24"
+              />
+              <h4>Download Resume</h4>
+            </button>
+          </a>
+
+          <!-- Github Button -->
+          <a href="https://github.com/RAC11" target="_blank">
+            <button class="icon-button">
+              <img
+                src="/assets/Github.png"
+                alt="Github Logo"
+                height="24"
+                width="24"
+              />
+              <h4>Github</h4>
+            </button>
+          </a>
+
+          <!-- Linked Button -->
+          <a href="https://www.linkedin.com/in/rylan-reese/" target="_blank">
+            <button class="icon-button">
+              <img
+                src="/assets/LinkedIn.png"
+                alt="LinkedIn Logo"
+                height="24"
+                width="24"
+              />
+              <h4>LinkedIn</h4>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Silder Container-->
+    <div class="slider">
+      <!-- Left Slider Container -->
+      <div
+        class="left-slider"
+        id="left-slider"
+        style="background-color: #131415"
+      >
+        <div class="left-slider-button-container">
+          <button class="slider-button" id="up-button" onclick="changeSlide()">
+            <img src="/assets/ArrowUpwardOutlined.png" alt="Up Arrow" />
+          </button>
+        </div>
+
+        <!-- Left Slider Content -->
+        <div class="left-slider-content">
+          <div class="left-Title" style="background-color: #131415">
+            <h1 id="left-title">Skills</h1>
+            <p id="left-text"></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Slider Container -->
+      <div class="right-slider" id="right-slider">
+        <!-- Right Slider Content -->
+        <div class="right-slider-content">
+          <div>
+            <img
+              id="img"
+              src="/assets/skillsList.png"
+              width="100%"
+              height="100%"
+              alt="Skills List"
+            />
+          </div>
+        </div>
+        <div class="right-slider-button-container">
+          <button
+            class="slider-button"
+            id="down-button"
+            onclick="changeSlide()"
+          >
+            <img src="/assets/ArrowDownwardFilled.png" alt="Down Arrow" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
