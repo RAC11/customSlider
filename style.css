@@ -18,7 +18,7 @@ body {
 }
 
 .header {
-    height: 50%;
+    height: 40%;
     width: 100%;
     max-width: 100%;
     display: flex;
@@ -30,12 +30,14 @@ body {
 }
 
 .headshot {
+    display: flex;
     margin: 10px;
 }
 
 .bio {
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
     color: white;
@@ -55,11 +57,13 @@ body {
 }
 
 .social-links {
-    margin-top: 60px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     max-width: 100%;
+    flex-wrap: wrap;
+    background-color:#0075eb;
+    height: 10%;
 }
 
 .icon-button {
@@ -77,7 +81,7 @@ body {
 
 .slider {
     display: flex;
-    height: 60%;
+    height: 50%;
     max-width: 100%;
     border-style: double;
     border-color: gray;
