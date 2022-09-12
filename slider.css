@@ -1,103 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
 /* link to icons https://www.figma.com/file/9stKdhidiY2th3C8gJ8zwI/MUI-for-Figma-v5.9.0-(Community)-(Community)?node-id=5405%3A69553 */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Readex Pro';
-}
-
-html {
-    height: 100%;
-}
-
-body {
-    height: 100%;
-    width: 100%;
-}
-
-.header {
-    height:35%;
-    width: 100%;
-    display: flex;
-    border: white;
-    border-width: .2em;
-    border-style: solid;
-    background-color: #131415;
-
-}
-
-.headshot {
-    display: flex;
-    justify-content: center;
-    width: auto;
-    height: auto;
-}
-
-.reeseImage {
-    width: 100%;
-    max-height: 100%;
-    height: auto;
-    border-radius: 50%;
-    padding: .2rem;
-}
-
-.bio {
-    height: 100%;
-    width: 75%;
-    display: flex;
-    line-height: 1.5;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: #131415;
-}
-
-/* #user-name{
-    display: flex;
-    justify-content: center;
-} */
-
-/* #user-bio{
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 30px;
-    margin-top: 30px;
-} */
-
-.social-links {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 30%;
-    flex-wrap: wrap;
-    background-color:#131415;
-    /* height: 10%; */
-}
-
-.icon-button {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    min-width: 150px;
-    height: 40px;
-    background-color: #757575;
-    border-radius: 25px;
-    cursor: pointer;
-}
-
-/* Icon Buttons Need psudo classes */
-
 .slider {
     display: flex;
     height: 65%;
     max-width: 100%;
     border-style: double;
     border-color: gray;
-    background-color: green;
 }
 
 /* Icon Buttons Need psudo classes */
@@ -129,7 +38,6 @@ body {
 }
 
 .right-slider-content {
-    /* background-color: brown; */
     height: 100%;
     width: 100%;
 }
